@@ -1,0 +1,233 @@
+body{
+    overflow-x: hidden;
+}
+
+#titleBox{
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    background-color: rgb(137, 188, 255);
+    left: 0%;
+    top: 2%;
+}#title{
+    position: absolute;
+    text-align: center;
+    top: -15%;
+    color: rgb(255, 255, 255);
+    font-family: arial;
+    font-size: 180%;
+}
+
+#description{
+    position: absolute;
+    top: 12%;
+    white-space: pre-wrap;
+    font-size: 120%;
+    text-align: center;
+}
+
+#separation1{
+    position: absolute;
+    width: 90%;
+    height: 2.5%;
+    left: 5%;
+    top: 26%;
+}
+
+#programmesDuJour{
+    position: absolute;
+    height: 6.5%;
+    width: 90%;
+    background-color: rgb(63, 124, 255);
+    border-radius: 16px;
+    color: white;
+    font-size: 130%;
+    font-family: arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    left: 5%;
+    top: 29.8%;
+}#programmeLink{
+    position: absolute;
+    left: 24%;
+    top: 37.1%;
+}
+
+#separation2{
+    position: absolute;
+    width: 90%;
+    height: 2.5%;
+    left: 5%;
+    top: 41%;
+}
+
+#exerciceSection{
+    position: absolute;
+    top: 42%;
+}#exoContainer{
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    left: 0%;
+    top: 50%;
+    background-color: rgb(243, 245, 247);
+}
+
+.exo{
+    position: absolute;
+    height: 90%;
+    width: 30%;
+    top: 5%;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.103);
+}
+#exo1{left: 2.5%;}
+#exo2{left: 35.5%;}
+#exo3{left: 68.5%;}
+
+#brasTitle{
+    text-align: center;
+    position: relative;
+    top: -5%;
+}#dosTitle{
+    text-align: center;
+    position: relative;
+    top: -5%;
+}#jambeTitle{
+    text-align: center;
+    position: relative;
+    top: -5%;
+}
+#logoBras{
+    position: absolute;
+    height: 60%;
+    left: 12.5%;
+    top: 35%;
+}#logoDos{
+    position: absolute;
+    height: 60%;
+    left: 12.5%;
+    top: 35%;
+}#logoJambe{
+    position: absolute;
+    height: 60%;
+    left: 12.5%;
+    top: 35%;
+}
+
+#separation3{
+    position: absolute;
+    width: 90%;
+    height: 2.5%;
+    left: 5%;
+    top: 72%;
+}
+
+#citation{
+    position: absolute;
+    top: 74%;
+    font-size: 120%;
+    left: 9%;
+}
+
+#separation4{
+    position: absolute;
+    width: 90%;
+    height: 2.5%;
+    left: 5%;
+    top: 80%;
+}
+
+#programmeTypesSection{
+    position: absolute;
+    top: 81%;
+}#programmesContainer{
+    position: absolute;
+    height: 20%;
+    width: 100%;
+    left: 0%;
+    top: 89%;
+    background-color: rgb(243, 245, 247);
+}
+
+.programme{
+    position: absolute;
+    height: 90%;
+    width: 30%;
+    top: 5%;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.103);
+}
+
+#prog1{left: 2.5%;}
+#prog2{left: 35.5%;}
+#prog3{left: 68.5%;}
+
+#programmeBras{
+    text-align: center;
+    position: relative;
+    top: -12%;
+}#programmeJambe{
+    text-align: center;
+    position: relative;
+    top: -12%;
+}#programmeCardio{
+    text-align: center;
+    position: relative;
+    top: -12%;
+}
+#programmeBrasLogo{
+    position: absolute;
+    height: 60%;
+    left: 12.5%;
+    top: 38%;
+}#programmeJambeLogo{
+    position: absolute;
+    height: 60%;
+    left: 12.5%;
+    top: 38%;
+}#cardioLogo{
+    position: absolute;
+    height: 60%;
+    left: 12.5%;
+    top: 38%;
+}
+
+#creditContainer{
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    top: 112%;
+    left: 0%;
+    background-color: rgba(45, 45, 61, 0.959);
+}#creditTitle{
+    position: absolute;
+    color: white;
+    text-decoration: underline;
+    left: 5%;
+}
+
+#creditDev{
+    position: absolute;
+    white-space: pre-wrap;
+    color: white;
+    top: 20%;
+    left: -15%;
+}#assetExtern{
+    position: absolute;
+    white-space: pre-wrap;
+    color: white;
+    top: 50%;
+    left: -8%;
+    font-size: 70%;
+}
+
+#version{
+    position: absolute;
+    color: white;
+    top: 80%;
+    left: 65%;
+}

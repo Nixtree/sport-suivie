@@ -1,0 +1,4 @@
+- implémenter un calendrier 
+- montrer le progra&mme du jour
+- proposer des programme exo 
+- donner des rappels
